@@ -13,7 +13,7 @@ text
 ## 📋 Project Logo
 
 <img src="./public/taxcortex-logo.png" alt="TaxCortex Logo" align="center" width="220" /> ```
-Logo used inside the app header and here for branding.
+
 
 🏷️ Project Name
 TaxCortex – Smart Tax Calculator for India (FY 2025–26)
@@ -167,15 +167,7 @@ Angel One requires account creation and cloud-based data handling.
 
 👉 Result: Higher privacy and trust.
 
-⚖️ Quick Comparison Table
-Feature	TaxCortex – Smart Tax Calculator	Angel One
-Core purpose	Tax calculation & planning	Trading & investing
-Multiple income sources	✅ Salary, rental, business, gains, others	❌ Mainly market income
-Family tax planning	✅ Yes	❌ No
-80C optimization	✅ Yes	⚠️ Partial / indirect
-Monthly / quarterly tax	✅ Yes	❌ No
-Historical tax analysis	✅ Yes	❌ Portfolio-only, not full tax
-Data privacy	✅ Client-side, LocalStorage	❌ Server-based, account required
+
 🧠 Core Features
 Smart Tax Calculator
 
@@ -272,8 +264,6 @@ Backend (Optional)
 text
 Node.js / Express     - Optional REST API for persistence or auth
 MongoDB / PostgreSQL  - Optional DB for multi-device sync
-(Core project works fully without backend – perfect for hackathons.)
-
 🎨 UI / UX Design
 Theme: Light theme with various shades of blue as primary color
 
@@ -287,36 +277,6 @@ Tabbed navigation (Dashboard, Income, Investments, Family, Timeline, History)
 
 Responsive: Adapted for desktop, tablet, and mobile
 
-🏗️ Folder Structure
-text
-taxcortex/
-├─ public/
-│  ├─ index.html
-│  ├─ taxcortex-logo.png
-├─ src/
-│  ├─ App.jsx
-│  ├─ index.js
-│  ├─ styles.css
-│  ├─ taxLogic.js
-│  ├─ storage.js
-│  ├─ PdfReport.js
-│  ├─ components/ (optional split)
-│  └─ ...
-└─ README.md
-🚀 Quick Start Guide
-1️⃣ Clone & Install
-text
-git clone https://github.com/your-username/taxcortex.git
-cd taxcortex
-npm install
-2️⃣ Run Dev Server
-text
-npm start
-# Visit: http://localhost:3000
-3️⃣ Build for Production
-text
-npm run build
-(If you add an Express backend, document it in a /server folder and update scripts.)
 
 📋 Feature Documentation
 1. 💰 Basic Tax Calculator
@@ -388,12 +348,6 @@ PDF report for filing or CA
 ✅ No server data storage in default setup
 ✅ Easy to host over HTTPS (Netlify, Vercel, GitHub Pages)
 
-🧑‍⚖️ Judge-Ready Pitch
-“Angel One is a strong investment platform, but it is not designed to solve the complete tax planning problem.
-Our Smart Tax Calculator, TaxCortex, focuses on what Indian taxpayers struggle with every year — understanding income tax, choosing the right regime, optimizing deductions, planning family taxes, and avoiding penalties.
-That makes our solution more calculation-centric, more explainable, and more suitable for real-world financial decision-making and hackathon evaluation.”
-
-Use this as your final closing statement in judging.
 
 🐛 Troubleshooting
 Issue	Fix
