@@ -1,7 +1,7 @@
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/512px-YouTube_full-color_icon_%282017%29.svg.png" alt="" align="center" width="225" height="150"><h1 align="center">TAX CORTEX</h1>
+<img src=["https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/512px-YouTube_full-color_icon_%282017%29.svg.png](https://instasize.com/p/1e4d272918260bae17ff0c7ff3dddaf452de033aa6da24bff6c25ecdc9fec84c)" alt="" align="center" width="225" height="150"><h1 align="center">TAX CORTEX</h1>
 <p align="center"><a href="#project-description">Project Description</a> - <a href="#key-features">Key Features</a> - <a href="#technology-stack">Tech Stack</a></p>
 
-<img src="https://repolaunch.vercel.app/assets/img/yt.webp" alt="" align="center" width="auto" height="auto">
+<img src="[https://repolaunch.vercel.app/assets/img/yt.webp](https://ik.imagekit.io/o6xywsa3m/PHOTO.jpeg)" alt="" align="center" width="auto" height="auto">
 
 ## Project Description
 
