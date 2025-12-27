@@ -8,11 +8,11 @@ text
 ![Frontend](https://img.shields.io/badge/Frontend-React%20JS%20|%20CSS3%20|%20JavaScript-blue)
 ![Backend](https://img.shields.io/badge/Backend-Optional%20Node.js%20API-green)
 
----
+---  
 
 ## 📋 Project Logo
 
-<img src="./public/taxcortex-logo.png" alt="TaxCortex Logo" align="center" width="220" /> ```
+<img src="./public/TAXCORTEX.jpeg" alt="TaxCortex Logo" align="center" width="220" /> ```
 
 
 🏷️ Project Name
@@ -34,7 +34,7 @@ Historical comparison and PDF report export
 
 🖼️ Project Image
 text
-<img src="./screenshots/dashboard.png" alt="TaxCortex Dashboard" align="center" width="auto" height="auto" />
+<img src="./screenshots/photo.jpeg" alt="TaxCortex Dashboard" align="center" width="auto" height="auto" />
 Add a screenshot of your main dashboard for GitHub preview.
 
 📝 Project Description
