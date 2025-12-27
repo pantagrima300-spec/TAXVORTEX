@@ -6,7 +6,7 @@
 
 <img src="https://ik.imagekit.io/o6xywsa3m/PHOTO.png" alt="" align="center" width="auto" height="auto">
 
-## Project Description
+<h2 align="center">PROJECT DESCRIPTION</h2>
 
 ![WhatsApp Image 2025-12-26 at 21 22 25](https://github.com/user-attachments/assets/1cf678dd-6336-4bb9-af9a-d7b13e20e34f)
 
@@ -80,7 +80,7 @@ Professional PDF and JSON exports for records and CA consultation
 🚀 Scalability & Deployment
 
 Built with modern web technologies and a clean dashboard, TaxCortex is scalable, extensible, and suitable for both real-world deployment and enterprise-grade financial systems.
-🛠️ Technology Stack – TaxCortex (Smart Tax Calculator)
+<h2 align="center">TECHNOLOGY STACK</h2>
 🌐 Frontend Technologies
 
 HTML5 – Structure and layout of the web application
@@ -165,9 +165,14 @@ Browser DevTools – Frontend debugging
 Purpose:
 Maintains code quality and prevents calculation errors.
 ![WhatsApp Image 2025-12-27 at 18 32 23](https://github.com/user-attachments/assets/03e3d2d4-61dd-4606-b899-a892ef97bc16)
+<h2 align="center">AIM FOR NEXT ROUND </h2>
+In Round Two, the platform will be upgraded with a structured SQL-based database to securely store user investment data, monthly tax records, and automatically generated PDF reports. This will enable accurate long-term financial tracking, historical analysis, and on-demand access to audit-ready documents. Unlike existing FinTech applications that focus primarily on investments and store taxation data in a fragmented or opaque manner, this system follows a tax-first and compliance-driven approach. The use of a relational SQL database ensures better data integrity, consistency, and traceability, making tax calculations, investment history, and monthly tracking more reliable and transparent. This phase transforms the platform from a basic tax calculator into a comprehensive, scalable, and regulation-aligned financial planning system that existing solutions in this field largely fail to offer.
+<h2 align="center">CONCLUSION</h2>
+TaxCortex, developed by Team Tech Vortex, redefines how income tax calculation and financial planning are approached in India by adopting a tax-first, compliance-driven, and user-centric design philosophy. The platform addresses critical gaps in existing FinTech solutions by delivering accurate tax computation, intelligent regime comparison, family-level tax optimization, and transparent financial insights—all aligned with official Income Tax Rules for FY 2025–26.
+
+With its focus on data privacy, scalability, and real-world usability, TaxCortex demonstrates strong potential beyond a hackathon prototype. The planned transition to structured SQL-based data storage in the next development phase will further enhance long-term tracking, investment management, and professional report generation, positioning the platform as a reliable financial planning ecosystem rather than just a tax calculator.
+
+Through thoughtful problem-solving, modern technology adoption, and a clear roadmap for future expansion, Team Tech Vortex presents a solution that is innovative, practical, and impactful, making TaxCortex a strong contender for real-world deployment and further development in the Indian FinTech landscape.
 
 
 
-Platforms: Windows, macOS, Linux, Android, iOS
-
-Platforms: Windows, macOS, Linux, Android, iOS
