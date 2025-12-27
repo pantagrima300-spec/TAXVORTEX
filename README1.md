@@ -12,7 +12,7 @@ text
 
 ## 📋 Project Logo
 
-<img src="./public/TAXCORTEX.jpeg" alt="TaxCortex Logo" align="center" width="220" /> ```
+<img src="./personal/pictures/TAXCORTEX.jpeg" alt="TaxCortex Logo" align="center" width="220" /> ```
 
 
 🏷️ Project Name
@@ -34,7 +34,7 @@ Historical comparison and PDF report export
 
 🖼️ Project Image
 text
-<img src="./screenshots/photo.jpeg" alt="TaxCortex Dashboard" align="center" width="auto" height="auto" />
+<img src="./personal/pictures/photo.jpeg" alt="TaxCortex Dashboard" align="center" width="auto" height="auto" />
 Add a screenshot of your main dashboard for GitHub preview.
 
 📝 Project Description
