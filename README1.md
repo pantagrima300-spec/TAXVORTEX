@@ -79,68 +79,94 @@ Professional PDF and JSON exports for records and CA consultation
 
 🚀 Scalability & Deployment
 
-Built with modern web technologies and a clean dashboard, TaxCortex is scalable, extensible, and hackathon-ready, suitable for both real-world deployment and enterprise-grade financial systems.
-## Tech Stack
-![PHOTO-2025-12-27-12-01-04](https://github.com/user-attachments/assets/9a7d98c5-11f4-4470-a65f-d1dcbf35ac30)
-
-
-TaxCortex is built using a modern, lightweight, and scalable full-stack architecture, ensuring high performance, accuracy, and data privacy.
-
+Built with modern web technologies and a clean dashboard, TaxCortex is scalable, extensible, and suitable for both real-world deployment and enterprise-grade financial systems.
+🛠️ Technology Stack – TaxCortex (Smart Tax Calculator)
 🌐 Frontend Technologies
 
-HTML5 Used for semantic structure and accessible form-based UI components, ensuring clarity and standards compliance.
+HTML5 – Structure and layout of the web application
 
-CSS3 Implements responsive layouts, animations, and a professional dashboard-style interface using Flexbox, Grid, and media queries.
+CSS3 – Styling, responsiveness, and UI aesthetics
 
-JavaScript (ES6+) Core logic for real-time tax calculations, regime comparison, deduction handling, state management, and UI interactivity.
+JavaScript (ES6+) – Dynamic behavior, real-time calculations, and form validation
 
-LocalStorage API Enables secure client-side data persistence, auto-save functionality, and offline usability without server dependency.
+Bootstrap / Tailwind CSS – Responsive and mobile-friendly design
 
-🧮 Calculation & Logic Layer
+Purpose:
+Provides an intuitive, fast, and responsive user interface for entering income, deductions, and tax-related details.
 
-Custom Tax Engine (JavaScript) Implements Indian Income Tax slabs (FY 2025–26), rebate rules, deductions, cess calculation, and advance tax logic with deterministic accuracy.
+⚙️ Backend Technologies
 
-Rule-Based Optimization Engine Provides regime selection, investment recommendations, and family-level tax optimization based on income distribution and eligibility.
+Python – Core backend programming language
 
-🖥️ Backend Technologies (Optional / Scalable)
+Flask – Lightweight web framework for building RESTful APIs
 
-Python 3.9+ Used for backend computation, validation, and report generation.
+JWT Authentication – Secure user login and session management
 
-Flask Framework Lightweight REST API layer for tax calculation endpoints, family planning analysis, and PDF report generation.
+Purpose:
+Handles business logic, tax computation, API routing, authentication, and communication between frontend and database.
 
-Flask-CORS Handles secure cross-origin communication between frontend and backend.
+🧮 Tax Calculation Engine
 
-ReportLab Generates professional, audit-ready PDF tax reports.
+Python Modules – Implements Indian tax slab logic (Old & New Regime)
 
-☁️ Cloud & Deployment
+Custom Algorithms – Deduction optimization, family tax planning, EMI & interest calculations
 
-Docker & Docker Compose Containerizes the application for consistent development, testing, and deployment environments.
+Purpose:
+Ensures accurate, fast, and regulation-compliant tax computation.
 
-Heroku Simple cloud deployment for quick demos and hackathon evaluation.
+🗄️ Database Technology
 
-AWS (Optional) Elastic Beanstalk for scalable backend deployment and S3 for report storage.
+SQL Database (MySQL / PostgreSQL)
 
-Google Cloud Run (Optional) Serverless container deployment for high availability and cost efficiency.
+Relational Tables – Users, Income Details, Deductions, Family Members, Tax History
 
-🔐 Security & Privacy Technologies
+Purpose:
+Stores structured financial data with high consistency, referential integrity, and audit readiness—essential for tax systems.
 
-Client-Side Processing Model Ensures that sensitive financial data is processed locally by default.
+📄 Reporting & Export Tools
 
-HTTPS / TLS Ready Architecture Supports secure communication in production deployments.
+ReportLab / WeasyPrint – PDF generation of tax reports
 
-No Third-Party Trackers or Analytics Privacy-first design with zero data harvesting.
+JSON – Data exchange and exports
 
-🔧 Development & Tooling
+Purpose:
+Generates downloadable tax summaries and official-style reports.
 
-Git & GitHub Version control and collaborative development.
+🔐 Security & Validation
 
-REST API Architecture Clean separation between frontend and backend logic.
+HTTPS – Secure data transmission
 
-JSON Standardized data format for exports and API communication.
+Input Validation & Sanitization – Prevents SQL injection and invalid entries
 
-⚙️ Compatibility
+Role-Based Access Control (RBAC)
 
-Browsers: Chrome, Firefox, Edge, Safari (Desktop & Mobile)
+Purpose:
+Protects sensitive financial data and ensures system reliability.
+
+🚀 Deployment & DevOps
+
+Docker – Containerization for consistent deployment
+
+Git & GitHub – Version control and collaboration
+
+AWS / Heroku / Render – Cloud hosting platforms
+
+Purpose:
+Ensures scalability, availability, and smooth deployment.
+
+🧪 Testing & Debugging
+
+PyTest / UnitTest – Backend testing
+
+Postman – API testing
+
+Browser DevTools – Frontend debugging
+
+Purpose:
+Maintains code quality and prevents calculation errors.
+![WhatsApp Image 2025-12-27 at 18 32 23](https://github.com/user-attachments/assets/03e3d2d4-61dd-4606-b899-a892ef97bc16)
+
+
 
 Platforms: Windows, macOS, Linux, Android, iOS
 
