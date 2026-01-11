@@ -31,4 +31,10 @@ Level 1 DFD - Main Processes
 
 Process Decomposition: Level 1 breaks system into 5 core processes with clear data flows. 1.0 Input Data validates and sanitizes 12+ financial fields. 2.0 Tax Calculator implements FY24-25 compliant algorithms. 3.0 Report Generator formats results for human consumption. 4.0 Data Store handles bi-directional LocalStorage ↔ PostgreSQL sync. 5.0 Data Export generates audit-ready JSON/PDF outputs.
 
+Level 2 DFD - Tax Calculation Process
+
+<img width="100%" height="476" alt="Screenshot 2026-01-11 at 2 01 58 PM" src="https://github.com/user-attachments/assets/05abb4a7-6fe5-4861-872a-6784b13d6c19" />
+
+
+
 Algorithmic Detail: Level 2 reveals three-stage tax pipeline. Pre-process aggregates 6 income streams and caps 80C deductions at ₹1.5L (old regime). Slab Calculator applies progressive brackets [0% ₹0-3L, 5% ₹3-7L, 10% ₹7-10L, 15% ₹10-12L, 20% ₹12-15L, 30% >₹15L] with 4% cess. Post-process computes effective rates and quarterly splits (15-Jun, 15-Sep, 15-Dec, 15-Mar deadlines).
