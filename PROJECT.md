@@ -125,4 +125,8 @@ Phase 2: Advanced Features (Week 3-4)
 
 Feature Complete: ReportLab generates CA-compliant PDFs. Cron jobs trigger quarterly reminders. WhatsApp Business API sends payment alerts. PWA passes Lighthouse 100/100 scores.
 
+Phase 3: ML & Analytics (Week 5-6)
+
+<img width="737" height="106" alt="Screenshot 2026-01-11 at 3 46 29 PM" src="https://github.com/user-attachments/assets/c8161658-38bd-40b5-b3c7-c3393cf1a98a" />
+
 
