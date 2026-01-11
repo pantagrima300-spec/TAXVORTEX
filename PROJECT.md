@@ -9,7 +9,7 @@ Detailed Repository Organization: The repository follows industry-standard monor
 
 
 🏗️ System Architecture Diagram
-<img width="844" height="475" alt="Screenshot 2026-01-11 at 1 11 27 PM" src="https://github.com/user-attachments/assets/bae7500e-a3ba-4460-b635-3cb8d6e84b1f" />
+<img width="100%" height="475" alt="Screenshot 2026-01-11 at 1 11 27 PM" src="https://github.com/user-attachments/assets/bae7500e-a3ba-4460-b635-3cb8d6e84b1f" />
 
 
 Three-Tier Architecture Explanation: TaxCortex implements a classic three-tier architecture with presentation layer (browser-based HTML/CSS/JS frontend), application layer (Flask REST APIs handling business logic), and data layer (SQLite for development, PostgreSQL for production). Bi-directional communication flows through JSON APIs with WebSocket fallbacks for real-time dashboard updates. Frontend provides React-like UX through custom virtual DOM diffing and cubic-bezier animations. Backend handles complex tax computations offloading CPU-intensive slab calculations from client devices. Progressive Web App (PWA) capabilities ensure complete offline functionality while maintaining seamless online sync.
@@ -27,7 +27,7 @@ System Boundary Definition: Level 0 DFD defines Taxpayer ↔ TaxCortex System in
 
 
 Level 1 DFD - Main Processes
-<img width="840" height="390" alt="Screenshot 2026-01-11 at 1 53 10 PM" src="https://github.com/user-attachments/assets/6aa0192d-6470-4bf9-b0d9-bbde30e463d2" />
+<img width="100%" height="390" alt="Screenshot 2026-01-11 at 1 53 10 PM" src="https://github.com/user-attachments/assets/6aa0192d-6470-4bf9-b0d9-bbde30e463d2" />
 
 Process Decomposition: Level 1 breaks system into 5 core processes with clear data flows. 1.0 Input Data validates and sanitizes 12+ financial fields. 2.0 Tax Calculator implements FY24-25 compliant algorithms. 3.0 Report Generator formats results for human consumption. 4.0 Data Store handles bi-directional LocalStorage ↔ PostgreSQL sync. 5.0 Data Export generates audit-ready JSON/PDF outputs.
 
