@@ -1,0 +1,96 @@
+<!-- Header -->
+<header class="app-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <img src="logo.png" alt="TaxCortex" class="logo" onerror="this.style.display='none'">
+      <h1>TaxCortex</h1>
+    </div>
+    <nav class="top-nav">
+      <button class="nav-pill active">Dashboard</button>
+      <button class="nav-pill">Income</button>
+      <button class="nav-pill">Tax Regime</button>
+      <button class="nav-pill">Investments</button>
+      <button class="nav-pill">Family</button>
+      <button class="nav-pill">Tracking</button>
+    </nav>
+  </div>
+</header>
+
+<!-- Main -->
+<main class="main container">
+  <section class="dashboard">
+    <h2 class="page-title">Tax Overview Dashboard</h2>
+
+    <div class="cards-grid">
+      <div class="card large" id="totalIncomeCard">
+        <div class="card-title">Total Income</div>
+        <div class="card-value">₹<span id="totalIncomeDisplay">0</span></div>
+      </div>
+
+      <div class="card large" id="taxOpsCard">
+        <div class="card-title">Tax Payable (OPS)</div>
+        <div class="card-value">₹<span id="taxOpsDisplay">0</span></div>
+      </div>
+
+      <div class="card large" id="taxNpsCard">
+        <div class="card-title">Tax Payable (NPS)</div>
+        <div class="card-value">₹<span id="taxNpsDisplay">0</span></div>
+      </div>
+
+      <div class="card large" id="maxSavingsCard">
+        <div class="card-title">Maximum Savings</div>
+        <div class="card-value">₹<span id="maxSavingsDisplay">0</span></div>
+      </div>
+
+      <div class="card" id="annualIncomeCard">
+        <div class="small-icon">💰</div>
+        <div class="card-title">Annual Income</div>
+        <div class="card-value large-number">₹<span id="annualIncomeDisplay">0</span></div>
+      </div>
+
+      <div class="card" id="effectiveRateCard">
+        <div class="small-icon">📈</div>
+        <div class="card-title">Effective Tax Rate (OPS)</div>
+        <div class="card-value large-number"><span id="effectiveRateDisplay">0</span>%</div>
+      </div>
+
+      <div class="card" id="recommendedRegimeCard">
+        <div class="small-icon">🎯</div>
+        <div class="card-title">Recommended Regime</div>
+        <div class="card-value large-number" id="recommendedRegimeDisplay">—</div>
+      </div>
+
+      <div class="card" id="investmentsUtilizedCard">
+        <div class="small-icon">✅</div>
+        <div class="card-title">Investments Utilized</div>
+        <div class="card-value large-number">₹<span id="investmentsUtilizedDisplay">0</span></div>
+      </div>
+    </div>
+
+    <div class="actions-row">
+      <button id="addIncomeBtn" class="primary">Add Income Sources</button>
+      <button id="planInvestBtn" class="secondary">Plan Investments</button>
+      <button id="exportPdfBtn" class="success">Export PDF Report</button>
+      <button id="resetBtn" class="outline">Reset All Data</button>
+      <button id="calculateBtn" class="primary" style="margin-left:auto">Calculate Tax</button>
+    </div>
+
+  </section>
+
+  <!-- Hidden form (kept for compatibility with existing JS) -->
+  <form id="taxForm" style="display:none;">
+    <div id="incomeSourcesContainer"></div>
+    <input type="hidden" name="income" id="totalIncome">
+    <input type="hidden" name="investments" id="totalInvestments">
+    <select id="regimeSelect" name="regime" style="display:none;">
+      <option value="ops">Old Regime</option>
+      <option value="new">New Regime</option>
+    </select>
+  </form>
+
+  <!-- Result (debug) -->
+  <pre id="result" style="white-space:pre-wrap; display:none;"></pre>
+</main>
+
+<!-- App scripts -->
+<script src="script.js"></script>
