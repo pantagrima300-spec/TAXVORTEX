@@ -24,3 +24,11 @@ Level 0 DFD - Context Diagram
 
 
 System Boundary Definition: Level 0 DFD defines Taxpayer ↔ TaxCortex System interaction where external entity (user) provides input data stream (6 income sources, 6×80C investments, family profiles) and receives output data stream (tax liability, slab breakdowns, quarterly schedules). LocalStorage acts as persistence layer ensuring data survives browser restarts and network interruptions. Single calculate_tax() function encapsulates all system complexity maintaining black-box abstraction for external consumers.
+
+
+Level 1 DFD - Main Processes
+<img width="840" height="390" alt="Screenshot 2026-01-11 at 1 53 10 PM" src="https://github.com/user-attachments/assets/6aa0192d-6470-4bf9-b0d9-bbde30e463d2" />
+
+Process Decomposition: Level 1 breaks system into 5 core processes with clear data flows. 1.0 Input Data validates and sanitizes 12+ financial fields. 2.0 Tax Calculator implements FY24-25 compliant algorithms. 3.0 Report Generator formats results for human consumption. 4.0 Data Store handles bi-directional LocalStorage ↔ PostgreSQL sync. 5.0 Data Export generates audit-ready JSON/PDF outputs.
+
+
