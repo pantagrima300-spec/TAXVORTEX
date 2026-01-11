@@ -21,3 +21,5 @@ Level 0 DFD - Context Diagram
 
 
 <img width="844" height="475" alt="![WhatsApp Image 2026-01-11 at 1 38 07 PM]" src="(https://github.com/user-attachments/assets/a27d2d9a-a970-4c4c-be3d-b14791d7b454)" />
+
+System Boundary Definition: Level 0 DFD defines Taxpayer ↔ TaxCortex System interaction where external entity (user) provides input data stream (6 income sources, 6×80C investments, family profiles) and receives output data stream (tax liability, slab breakdowns, quarterly schedules). LocalStorage acts as persistence layer ensuring data survives browser restarts and network interruptions. Single calculate_tax() function encapsulates all system complexity maintaining black-box abstraction for external consumers.
