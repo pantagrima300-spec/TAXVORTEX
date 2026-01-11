@@ -15,3 +15,4 @@ Detailed Repository Organization: The repository follows industry-standard monor
 Three-Tier Architecture Explanation: TaxCortex implements a classic three-tier architecture with presentation layer (browser-based HTML/CSS/JS frontend), application layer (Flask REST APIs handling business logic), and data layer (SQLite for development, PostgreSQL for production). Bi-directional communication flows through JSON APIs with WebSocket fallbacks for real-time dashboard updates. Frontend provides React-like UX through custom virtual DOM diffing and cubic-bezier animations. Backend handles complex tax computations offloading CPU-intensive slab calculations from client devices. Progressive Web App (PWA) capabilities ensure complete offline functionality while maintaining seamless online sync.
 
 
+📊 Data Flow Diagrams (DFDs)
