@@ -9,7 +9,8 @@ Detailed Repository Organization: The repository follows industry-standard monor
 
 
 🏗️ System Architecture Diagram
-<img width="100%" height="475" alt="Screenshot 2026-01-11 at 1 11 27 PM" src="https://github.com/user-attachments/assets/bae7500e-a3ba-4460-b635-3cb8d6e84b1f" />
+
+<img width="844" height="477" alt="Screenshot 2026-01-11 at 3 49 39 PM" src="https://github.com/user-attachments/assets/f35d084a-d588-4e6c-9df0-7098ee11bee2" />
 
 
 Three-Tier Architecture Explanation: TaxCortex implements a classic three-tier architecture with presentation layer (browser-based HTML/CSS/JS frontend), application layer (Flask REST APIs handling business logic), and data layer (SQLite for development, PostgreSQL for production). Bi-directional communication flows through JSON APIs with WebSocket fallbacks for real-time dashboard updates. Frontend provides React-like UX through custom virtual DOM diffing and cubic-bezier animations. Backend handles complex tax computations offloading CPU-intensive slab calculations from client devices. Progressive Web App (PWA) capabilities ensure complete offline functionality while maintaining seamless online sync.
@@ -19,7 +20,8 @@ Three-Tier Architecture Explanation: TaxCortex implements a classic three-tier a
 
 Level 0 DFD - Context Diagram
 
-![PHOTO-2026-01-11-13-38-05](https://github.com/user-attachments/assets/8411a2b6-307e-4554-81ea-10e73ae36e01)
+
+<img width="841" height="408" alt="Screenshot 2026-01-11 at 3 49 59 PM" src="https://github.com/user-attachments/assets/f56315b6-7a4e-4f60-a84f-9c3c28755624" />
 
 
 
@@ -33,7 +35,8 @@ Process Decomposition: Level 1 breaks system into 5 core processes with clear da
 
 Level 2 DFD - Tax Calculation Process
 
-<img width="100%" height="476" alt="Screenshot 2026-01-11 at 2 01 58 PM" src="https://github.com/user-attachments/assets/05abb4a7-6fe5-4861-872a-6784b13d6c19" />
+
+<img width="840" height="376" alt="Screenshot 2026-01-11 at 3 50 16 PM" src="https://github.com/user-attachments/assets/2795faa2-7aa4-45e5-aafb-4c730841da6b" />
 
 
 
@@ -42,8 +45,12 @@ Algorithmic Detail: Level 2 reveals three-stage tax pipeline. Pre-process aggreg
 
 🔧 Component Breakdown
 
-<img width="100%" height="202" alt="Screenshot 2026-01-11 at 2 04 49 PM" src="https://github.com/user-attachments/assets/cd2cd9e5-21d0-4129-9838-1c672f9a0d1d" />
 
+<img width="845" height="491" alt="Screenshot 2026-01-11 at 3 50 53 PM" src="https://github.com/user-attachments/assets/0b1f001b-d04e-4382-9b78-ef540f4b045d" />
+
+Frontend (HTML/CSS/JS)
+
+<img width="746" height="197" alt="Screenshot 2026-01-11 at 3 52 19 PM" src="https://github.com/user-attachments/assets/8057572d-6671-4999-8ad9-47bbb44235c3" />
 
 
 Frontend Component Architecture: Dashboard provides real-time ₹12,50,000 → ₹1,25,000 visualization with 60fps animations. Income Sources uses dynamic form factory generating 6 specialized input types with live validation. Tax Regime Comparison renders interactive tables showing OPS ₹1,25,000 vs NPS ₹1,35,000 with slab-wise breakdowns. 80C tracker enforces ₹1.5L cap with category-wise allocation. Family Planning supports consolidated returns across spouses/dependents. Quarterly Tracking displays statutory due dates with payment calculators. Historical Comparison charts YoY tax progression.
@@ -51,8 +58,8 @@ Frontend Component Architecture: Dashboard provides real-time ₹12,50,000 → �
 
 Backend (Flask Python)
 
+<img width="747" height="175" alt="Screenshot 2026-01-11 at 3 51 33 PM" src="https://github.com/user-attachments/assets/b84c1757-7285-4d18-9559-ea6fa15f7804" />
 
-<img width="100%" height="175" alt="Screenshot 2026-01-11 at 2 30 58 PM" src="https://github.com/user-attachments/assets/48470f9f-9180-4801-9927-f71fbf243e03" />
 
 
 
